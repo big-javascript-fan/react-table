@@ -1,42 +1,33 @@
-@import './stylesheet/header.css';
-
-body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-  font-weight: 300;
-  font-size: 14px;
-}
-
 .App {
   text-align: center;
 }
 
 .container {
-  width: 1400px;
+  max-width: 1184px;
+  margin: 0 auto;
   padding-top: 150px;
   padding-bottom: auto;
   margin-left: auto;
   margin-right: auto;
+  font-family: 'ProximaNova';
+  font-size: 16px;
 }
 
-.table-cell {
-  display: inline-block;
+thead tr {
+  width: 100% !important;
+  border-bottom: 2px solid #cccccc !important;
+  color: #999999 !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+}
+
+.Title-title-40 {
+  font-family: 'ProximaNova';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.logo {
+  height: 30px;
   vertical-align: middle;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.app-header .table-cell {
-  cursor: pointer;
-}
-
-.table-cell.active {
-  background-color: #00ffff4f;
-  border-left: 1px solid #46675cd6;
-  border-right: 1px solid #46675cd6;
-}
-
-.column {
-  border-bottom: 1px solid #CCCCCC;
 }
