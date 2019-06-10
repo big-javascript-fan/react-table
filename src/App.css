@@ -1,33 +1,42 @@
+@import './stylesheet/header.css';
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  font-size: 14px;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width: 1400px;
+  padding-top: 150px;
+  padding-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.table-cell {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.app-header .table-cell {
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table-cell.active {
+  background-color: #00ffff4f;
+  border-left: 1px solid #46675cd6;
+  border-right: 1px solid #46675cd6;
+}
+
+.column {
+  border-bottom: 1px solid #CCCCCC;
 }
