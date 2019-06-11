@@ -1,10 +1,72 @@
+
+
+/* 
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('./fonts/ProximaNova-Bold.eot');
+  src: url('./fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/ProximaNova-Bold.woff') format('woff'),
+  url('./fonts/ProximaNova-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('./fonts/ProximaNova-Semibold.eot');
+  src: url('./fonts/ProximaNova-Semibold.woff2') format('woff2'),
+      url('./fonts/ProximaNova-Semibold.woff') format('woff'),
+      url('./fonts/ProximaNova-Semibold.ttf') format('truetype'),
+      url('./fonts/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg'),
+      url('./fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('./fonts/ProximaNova-Regular.eot');
+  src: url('./fonts/ProximaNova-Regular.woff2') format('woff2'),
+      url('./fonts/ProximaNova-Regular.woff') format('woff'),
+      url('./fonts/ProximaNova-Regular.ttf') format('truetype'),
+      url('./fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg'),
+      url('./fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('./fonts/ProximaNova-Light.eot');
+  src: url('./fonts/ProximaNova-Light.woff2') format('woff2'),
+      url('./fonts/ProximaNova-Light.woff') format('woff'),
+      url('./fonts/ProximaNova-Light.ttf') format('truetype'),
+      url('./fonts/ProximaNova-Light.svg#ProximaNova-Light') format('svg'),
+      url('./fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('./fonts/ProximaNovaT-Thin.eot');
+  src: url('./fonts/ProximaNovaT-Thin.woff2') format('woff2'),
+      url('./fonts/ProximaNovaT-Thin.woff') format('woff'),
+      url('./fonts/ProximaNovaT-Thin.ttf') format('truetype'),
+      url('./fonts/ProximaNovaT-Thin.svg#ProximaNovaT-Thin') format('svg'),
+      url('./fonts/ProximaNovaT-Thin.eot?#iefix') format('embedded-opentype');
+  font-weight: 100;
+  font-style: normal;
+} */
+
 .App {
   text-align: center;
 }
 
 .container {
   max-width: 1184px;
-  margin: 0 auto;
+  padding: 0 30px;
   padding-top: 150px;
   padding-bottom: auto;
   margin-left: auto;
@@ -13,7 +75,7 @@
   font-size: 16px;
 }
 
-thead tr {
+thead tr th{
   width: 100% !important;
   border-bottom: 2px solid #cccccc !important;
   color: #999999 !important;
